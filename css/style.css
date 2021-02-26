@@ -181,6 +181,17 @@ a:hover {
   position: relative;
 }
 
+.list li::before {
+  content: "\ea11";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+}
+
+.contacts > li::before {
+  content: none;
+}
+
 .photo {
   border-radius: 50%;
   padding-bottom: 100%;
@@ -250,4 +261,12 @@ p, li {
   margin-bottom: 50px;
   position: relative;
   padding-left: 20px;
+}
+
+.period::before {
+  content: "\1f317";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  font-style: normal;
 }
