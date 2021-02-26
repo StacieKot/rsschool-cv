@@ -7,6 +7,7 @@
 #### Email: stacie.kot@gmail.com
 #### Github: [StacieKot](https://github.com/StacieKot)
 
+
 ## Summary
 
 Hi, my name is Nastia. In February 2021 I graduated from the course "Web development with HTML, CSS and JavaScript" (basis course) in IT-Academy. And now I am studying on the course "Web Application Development with JavaScript". I want to start a career as a junior frontend developer.
@@ -26,4 +27,18 @@ November 2020 - February 2021
 
 [IT-Academy graduation project](https://staciekot.github.io/Ecoshop/)
 
+
+## Skills 
+
+* HTML  
+* CSS  
+* English level A2  
+
+
+## Personal skills
+
+* Good analytical skills  
+* Easy to learn  
+* Good communication skills  
+* Hardworking  
 
