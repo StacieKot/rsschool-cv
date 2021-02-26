@@ -1,4 +1,5 @@
 # Kot Anastsiya 
+![my-photo](https://user-images.githubusercontent.com/76011979/108890583-cfa92f80-761e-11eb-83f2-5b82ce488251.jpg)
 
 ## Contacts
 
@@ -19,4 +20,10 @@ November 2020 - February 2021
 
 **BSEU** Faculty of Economics and Trade Management  
 2008-2012
+
+
+## Projects
+
+[IT-Academy graduation project](https://staciekot.github.io/Ecoshop/)
+
 
