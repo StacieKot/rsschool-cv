@@ -11,39 +11,55 @@
 </head>
 
 <body>
-   <div class="wrapper">
+   <header class="container">
       <div>
-         <div>
-            <div class="photo"></div>
-         </div>
-         <div>
-            <h2>Contacts</h2>
+         <img src="jpg/my-photo.jpg" alt="Portrait of Anastasia Kot">
+      </div>
+      <div>
+         <h1>Anastasiya Kot</h1>
+      </div>
+      <div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <polygon points="100 0 100 10 0 10" />
+         </svg>
+      </div>
+      <div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <polygon points="100 0 100 10 0 10" />
+         </svg>
+      </div>
+   </header>
+   <main class="container">
+      <div>
+         <section>
+            <input type="checkbox" id="contacts">
+            <label for="contacts"><h2>Contacts</h2></label>
             <ul class="contacts">
                <li><a class="icon-phone2" href="tel:+375445165168"> +375 44 516 516 8</a></li>
                <li><a class="icon-mail" href="mail:stacie.kot@gmail.com"> stacie.kot@gmail.com</a></li>
                <li><a class="icon-github" href="https://github.com/StacieKot"> StacieKot</a></li>
             </ul>
-         </div>
-         <div>
-            <h2>Personal skills</h2>
-            <ul class="list">
+         </section>
+         <section>
+            <input type="checkbox" id="skills">
+            <label for="skills"><h2>Personal skills</h2></label>
+            <ul class="list skills-list">
                <li>Good analytical skills</li>
                <li>Easy to learn</li>
                <li>Good communication skills</li>
                <li>Hardworking</li>
             </ul>
-         </div>
+         </section>
       </div>
       <div>
-         <h1>Anastasiya Kot</h1>
-         <div>
+         <section>
             <h2>About me</h2>
             <p>Hi, my name is Nastia. In February 2021 I graduated from the course “Web development with HTML,
                CSS and JavaScript” (basis course) in IT-Academy. And now I am studying on the course
                “Web Application Development with JavaScript”. I want to start a career as a
                junior frontend developer.</p>
-         </div>
-         <div>
+         </section>
+         <section>
             <h2>Education</h2>
             <h3>IT-Academy</h3>
             <h4>Web development with HTML, CSS and JavaScript</h4>
@@ -52,22 +68,68 @@
             <h4>Faculty of Economics and Trade Management</h4>
             <h5>Economist</h5>
             <div class="period">November 2020 - February 2021</div>
-         </div>
-         <div>
+         </section>
+         <section>
             <h2>Skills</h2>
             <ul class="list">
                <li>HTML</li>
                <li>CSS</li>
                <li>English level A2</li>
             </ul>
-         </div>
-         <div>
+         </section>
+         <section>
             <h2>Projects</h2>
             <a href="https://staciekot.github.io/Ecoshop/"
                title="Web development with HTML, CSS and JavaScript graduation project">IT-Academy graduation
                project</a>
-         </div>
+            <div class="project-gallery">
+               <figure>
+                  <img src="jpg/screenshot1.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Home page</figcaption>
+               </figure>
+               <figure>
+                  <img src="jpg/screenshot2.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Registration form</figcaption>
+               </figure>
+               <figure>
+                  <img src="jpg/screenshot3.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Menu</figcaption>
+               </figure>
+               <figure>
+                  <img src="jpg/screenshot6.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Shop page</figcaption>
+               </figure>
+               <figure>
+                  <img src="jpg/screenshot8.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Product page</figcaption>
+               </figure>
+               <figure>
+                  <img src="jpg/screenshot7.jpg" alt="Project screenshot &mdash; home page">
+                  <figcaption>Project screenshot &mdash; Filters</figcaption>
+               </figure>
+            </div>
+
+         </section>
       </div>
-   </div>
+      <div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 30" preserveAspectRatio="none">
+            <polygon points="100 17 100 30 0 30 0 25" />
+         </svg>
+      </div>
+      <div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 30" preserveAspectRatio="none">
+            <polygon points="100 0 100 30 0 30 0 17" />
+         </svg>
+      </div>
+   </main>
+   <footer class="container">
+      <div><a class="icon-github" href="https://github.com/StacieKot"> StacieKot</a></div>
+      <div>
+         <div><a href="https://rs.school/js/" title="JavaScript/Front-end"><img src="jpg/rs_school_js.svg"></a> </div>
+         <div> «JavaScript/Front-end» course in <a href="https://rs.school/js/" title="JavaScript/Front-end">The Rolling
+               Scopes school.</a></div>
+      </div>
+   </footer>
 </body>
+
 </html>
