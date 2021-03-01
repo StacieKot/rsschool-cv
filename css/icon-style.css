@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?4aszn6');
-  src:  url('../fonts/icomoon.eot?4aszn6#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?4aszn6') format('truetype'),
-    url('../fonts/icomoon.woff?4aszn6') format('woff'),
-    url('../fonts/icomoon.svg?4aszn6#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?pzccnk');
+  src:  url('../fonts/icomoon.eot?pzccnk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?pzccnk') format('truetype'),
+    url('../fonts/icomoon.woff?pzccnk') format('woff'),
+    url('../fonts/icomoon.svg?pzccnk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,6 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -29,6 +30,12 @@
 }
 .icon-phone2:before {
   content: "\e900";
+}
+.icon-caret-down:before {
+  content: "\e90c";
+}
+.icon-caret-up:before {
+  content: "\e90e";
 }
 .icon-mail:before {
   content: "\e902";
